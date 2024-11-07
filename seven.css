@@ -1,0 +1,87 @@
+html, body,
+ul, ol, li,
+h1, h1, h3, h4, h5, h6, p,
+form, input, div{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:"Avenir Next", "TsukuARdGothic-Regular", sans-serif;
+}
+
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+
+
+header{
+    text-align: center;
+    display:absolute;
+  }
+
+header h1{
+    color:red;  
+    display: inline-block;
+    margin-right:-250px;
+  }
+header h1 .orange{
+    color:orange;
+}
+header h1 .green{
+    color:green;
+}
+
+.header-top botton{
+    float:right;
+    text-align: center;
+    margin-top:10px;
+    margin-right:10px;
+    padding:5px;
+    border-radius:5px;
+    cursor: pointer;
+  }
+.header-top botton:hover{
+    background-color:#4CAF50;
+    color:white;
+  }
+  
+  /*ここから検索欄のcss*/
+  .search-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+    }
+    
+    #search {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    button {
+      padding: 10px;
+      margin-left: 10px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  /*ここまで*/
+  
+  .store-category{
+    text-align:center;
+  }
+  .store-category li{
+    margin: 20px;
+    color:rgba(0,0,0,0.4);
+  }
+  .store-category li:hover{
+    color:rgba(0,0,0,0.8);
+  }
+  
