@@ -17,7 +17,8 @@ db.serialize(() => {
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             title TEXT NOT NULL,
             repo TEXT NOT NULL,
-            recipe TEXT NOT NULL
+            recipe TEXT NOT NULL,
+            image_url TEXT NOT NULL
         )
     `);
 });
