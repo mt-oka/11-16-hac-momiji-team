@@ -54,3 +54,20 @@ sqlite3 database.sqlite
 `src/db/database.js`をみてください
 
 ローカルサーバーを起動すると勝ってに実行されてテーブルも作成されます
+
+## AIの設定
+
+### API Keyを取得する
+
+https://platform.openai.com/api-keys からAPI Keyを発行してください
+
+※公開はしないでください
+
+### 鍵を環境変数に設定する
+
+`.env`ファイルを作成して下記のように設定してください
+
+```
+AI_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+AI_API_ENDPOINT=https://api.openai.com/v1/images/generations
+```
