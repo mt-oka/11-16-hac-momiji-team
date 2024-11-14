@@ -19,11 +19,13 @@ a{
 header{
   text-align: center;
   display:absolute;
+  margin-top:20px;
 }
 header h1{
-  color:black;  
+  color: black;
   display: inline-block;
-  margin-right:-250px;
+  text-align: center;
+  padding-left:100px;
 }
 .header-link{
   float:right;

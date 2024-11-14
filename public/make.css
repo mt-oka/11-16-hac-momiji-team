@@ -36,6 +36,9 @@ header input:hover {
     background-color: #4CAF50;
     color: white;
 }
+header h1{
+    color:black;
+}
 .header2 input {
    padding: 10px 20px;
     margin-left: 10px;
@@ -90,6 +93,17 @@ textarea {
     margin: 10px auto;
     height: 150px;
     padding: 10px;
+}
+.submit{
+    background-color: rgba(21, 163, 47, 0.5);
+    color: #ffffff;
+    border-radius: 8px;
+    width: 100px;
+    margin:0 auto;
+    display: block;
+}
+.submit:hover{
+    background-color:rgba(21, 163, 47, 0.9)
 }
 
 /* レスポンシブデザイン */
