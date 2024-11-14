@@ -25,7 +25,7 @@ header h1{
   display: inline-block;
   margin-right:-250px;
 }
-.header-top input{
+.header-link{
   float:right;
   text-align: center;
   margin-top:10px;
@@ -34,9 +34,11 @@ header h1{
   border-radius:5px;
   cursor: pointer;
   border:none;
-  background-color: white;
+  background-color: #4CAF20;
+  color: white;
+
 }
-.header-top input:hover{
+.header-link:hover{
   background-color:#4CAF50;
   color:white;
 }
