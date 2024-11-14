@@ -41,6 +41,8 @@ app.post('/make', async (req, res) => {
     });
 
     if (!response.ok) {
+      const errorData = await response.json();
+      console.error('API Error:', errorData);  // 詳細なエラー内容を表示
       throw new Error(`Error: ${response.statusText}`);
     }
 

@@ -36,8 +36,8 @@ header input:hover {
     background-color: #4CAF50;
     color: white;
 }
-header button {
-    padding: 10px 20px;
+.header2 input {
+   padding: 10px 20px;
     margin-left: 10px;
     border: none;
     background-color: #4CAF50;
@@ -45,7 +45,7 @@ header button {
     cursor: pointer;
     border-radius: 5px;
 }
-header button:hover {
+.header2 input:hover {
     background-color: #45a049;
 }
 
@@ -84,6 +84,7 @@ textarea {
 
 /* アピールポイントと作り方 */
 #repo, #make-a {
+    display: block;        
     width: 80%;
     max-width: 600px;
     margin: 10px auto;
