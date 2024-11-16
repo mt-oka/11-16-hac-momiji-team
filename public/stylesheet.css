@@ -17,12 +17,16 @@ a{
 }
 
 header{
+  padding-top:30px;
   text-align: center;
   display:absolute;
   margin-top:20px;
+  background-color: black;
+  margin-top:-10px;
+  margin-bottom:-20px;
 }
 header h1{
-  color: black;
+  color: white;
   display: inline-block;
   text-align: center;
   padding-left:100px;
@@ -35,13 +39,13 @@ header h1{
   padding:5px;
   border-radius:5px;
   cursor: pointer;
-  border:none;
-  background-color: #4CAF20;
-  color: white;
+  border-color:gainsboro;
+  background-color: black;
+  color: gainsboro;
 
 }
 .header-link:hover{
-  background-color:#4CAF50;
+  background-color: rgba(0,0,0,0.5);
   color:white;
 }
 
@@ -62,16 +66,17 @@ header h1{
   button {
     padding: 10px;
     margin-left: 10px;
-    border: none;
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    border-color: gainsboro;
   }
 /*ここまで*/
 
 .store-category{
   text-align:center;
+ 
 }
 .store-category li{
   margin: 20px;
@@ -80,4 +85,12 @@ header h1{
 .store-category li:hover{
   color:rgba(0,0,0,0.8);
 }
-
+main{
+  background-color: black;
+  color:white;
+  height:600px;
+}
+.product{
+  width: 25%;
+  float:left;
+}

@@ -8,7 +8,7 @@ form, input, div {
 }
 body {
     font-family: "Avenir Next", "TsukuARdGothic-Regular", sans-serif;
-    background-color: #f8f9fa; /* 全体の背景色を設定 */
+    background-color:black; /* 全体の背景色を設定 */
 }
 
 /* リンクのデフォルトスタイル */
@@ -20,7 +20,7 @@ a {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #ffffff;
+    background-color:black;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 header input {
@@ -30,26 +30,26 @@ header input {
     border-radius: 5px;
     cursor: pointer;
     border: none;
-    background-color: white;
-}
-header input:hover {
-    background-color: #4CAF50;
+    background-color:black;
     color: white;
 }
+header input:hover {
+    background-color: grey;
+}
 header h1{
-    color:black;
+    color:white;
 }
 .header2 input {
    padding: 10px 20px;
     margin-left: 10px;
     border: none;
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     cursor: pointer;
     border-radius: 5px;
 }
 .header2 input:hover {
-    background-color: #45a049;
+    background-color: black;
 }
 
 /* フォーム要素のスタイル */
@@ -95,7 +95,7 @@ textarea {
     padding: 10px;
 }
 .submit{
-    background-color: rgba(21, 163, 47, 0.5);
+    background-color: rgba(24, 34, 26, 0.602);
     color: #ffffff;
     border-radius: 8px;
     width: 100px;
@@ -103,7 +103,7 @@ textarea {
     display: block;
 }
 .submit:hover{
-    background-color:rgba(21, 163, 47, 0.9)
+    background-color:rgba(36, 46, 38, 0.9)
 }
 
 /* レスポンシブデザイン */
