@@ -34,7 +34,8 @@ app.post('/make', async (req, res) => {
         'Authorization': `Bearer ${process.env.AI_API_KEY}`,
       },
       body: JSON.stringify({
-        prompt: `I'm creating a cost-effective meal by combining convenience store menu items. Please generate an image of the completed dish based on the ingredients. The title of the dish is '${title}', and the preparation method is as follows: ${recipe}.`, // タイトルやレシピの情報をプロンプトに使う
+        //prompt: `I'm creating a cost-effective meal by combining convenience store menu items. Please generate an image of the completed dish based on the ingredients. The title of the dish is '${title}', and the preparation method is as follows: ${recipe}.`, // タイトルやレシピの情報をプロンプトに使う
+        prompt: `Generate an image of a dish made from a combination of convenience store products. The title of the dish should be “${title}” and it should be prepared in the following way: ${recipe}. If possible, include a subtle background (e.g., convenience store packaging or setting) that hints at its origin.`,
         n: 1,
         size: '1024x1024'
       }),

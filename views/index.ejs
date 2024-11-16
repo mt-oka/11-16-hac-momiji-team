@@ -30,8 +30,8 @@
     <h1 class="main_title">生成一覧</h1>
     <% products.forEach(product => { %>
       <div class="product">
-        <img src="<%= product.image_url %>" alt="<%= product.title %>">
         <h2><%= product.title %></h2>
+        <img src="<%= product.image_url %>" alt="<%= product.title %>" width="200" height="130">
         <p><%= product.repo %></p>
         <!-- <a href="/products/<%= product.id %>">詳細</a> -->
       </div>
